@@ -1,0 +1,297 @@
+{
+  "summary": [
+    {
+      "name": "Class",
+      "quantity": 254,
+      "backgroundColor": "#EBF2FF"
+    },
+    {
+      "name": "Tutor",
+      "quantity": 647,
+      "backgroundColor": "#EBFAF3"
+    },
+    {
+      "name": "Student",
+      "quantity": 834,
+      "backgroundColor": "#F9ECD4"
+    },
+    {
+      "name": "Total Revenue",
+      "quantity": 834,
+      "backgroundColor": "#FCE4DE"
+    }
+  ],
+  "class": [
+    {
+      "name": "Total Class",
+      "quantity": 20,
+      "trend": "increase",
+      "percent": "15%"
+    },
+    {
+      "name": "New Class",
+      "quantity": 6,
+      "trend": "increase",
+      "percent": "50%"
+    },
+    {
+      "name": "Stopped Class",
+      "quantity": 4,
+      "trend": "decrease",
+      "percent": "5%"
+    },
+    {
+      "name": "Class Today",
+      "quantity": 12,
+      "trend": null,
+      "percent": null
+    }
+  ],
+  "new-class": [
+    {
+      "date": "2024-09-29",
+      "data": {
+        "Course 1": [12, 3000],
+        "Course 2": [40, 2000],
+        "Course 3": [35, 2320],
+        "Course 4": [24, 2350],
+        "Course 5": [26, 2603],
+        "Course 6": [21, 2310],
+        "Course 7": [35, 1250],
+        "Course 8": [32, 2231],
+        "Course 9": [34, 2280],
+        "Course 10": [25, 3320],
+        "Course 11": [46, 1520],
+        "Tutor 12": [25, 2230]
+      }
+    },
+    {
+      "date": "2024-09-30",
+      "data": {
+        "Course 1": [15, 3100],
+        "Course 2": [38, 2100],
+        "Course 3": [30, 2400],
+        "Course 4": [22, 2500],
+        "Course 5": [28, 2700],
+        "Course 6": [20, 2200],
+        "Course 7": [33, 1300],
+        "Course 8": [31, 2300],
+        "Course 9": [36, 2400],
+        "Course 10": [27, 3400],
+        "Course 11": [48, 1600],
+        "Tutor 12": [29, 2250]
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "data": {
+        "Course 1": [14, 3000],
+        "Course 2": [42, 2200],
+        "Course 3": [32, 2500],
+        "Course 4": [25, 2400],
+        "Course 5": [30, 2600],
+        "Course 6": [19, 2100],
+        "Course 7": [34, 1400],
+        "Course 8": [29, 2350],
+        "Course 9": [33, 2300],
+        "Course 10": [26, 3300],
+        "Course 11": [45, 1550],
+        "Tutor 12": [27, 2200]
+      }
+    },
+    {
+      "date": "2024-10-02",
+      "data": {
+        "Course 1": [13, 3050],
+        "Course 2": [39, 2150],
+        "Course 3": [31, 2450],
+        "Course 4": [23, 2550],
+        "Course 5": [29, 2750],
+        "Course 6": [22, 2250],
+        "Course 7": [36, 1350],
+        "Course 8": [30, 2400],
+        "Course 9": [34, 2200],
+        "Course 10": [28, 3450],
+        "Course 11": [47, 1650],
+        "Tutor 12": [26, 2300]
+      }
+    },
+    {
+      "date": "2024-10-03",
+      "data": {
+        "Course 1": [15, 3100],
+        "Course 2": [41, 2250],
+        "Course 3": [34, 2500],
+        "Course 4": [24, 2600],
+        "Course 5": [27, 2800],
+        "Course 6": [20, 2150],
+        "Course 7": [32, 1450],
+        "Course 8": [35, 2500],
+        "Course 9": [30, 2250],
+        "Course 10": [29, 3550],
+        "Course 11": [49, 1700],
+        "Tutor 12": [28, 2400]
+      }
+    }
+  ],
+  "revenue": [
+    {
+      "date": "2024-10-02",
+      "quantity": 95,
+      "trend": "decrease",
+      "percent": "13.6%"
+    },
+    {
+      "date": "2024-10-03",
+      "quantity": 120,
+      "trend": "increase",
+      "percent": "27.8%"
+    }
+  ],
+  "learn-activity": [
+    {
+      "month": "09-2024",
+      "data": {
+        "Basic English": 13,
+        "Children English": 15,
+        "Math": 28,
+        "Tutor": 20,
+        "1:1 Online": 16,
+        "Literatur": 14,
+        "Exam Math": 11,
+        "Exam English": 20
+      }
+    },
+    {
+      "month": "10-2024",
+      "data": {
+        "Basic English": 10,
+        "Children English": 12,
+        "Math": 20,
+        "Tutor": 16,
+        "1:1 Online": 13,
+        "Literatur": 12,
+        "Exam Math": 10,
+        "Exam English": 20
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "date": "2024-10-01",
+      "activities": [
+        {
+          "time": "08:00",
+          "subject": "Subject 1",
+          "tutor": "Tutor A",
+          "student": "Student 1",
+          "backgroundColor": "#377DFF"
+        },
+        {
+          "time": "10:30",
+          "subject": "Subject 2",
+          "tutor": "Tutor B",
+          "student": "Student 2",
+          "backgroundColor": "#FF6968"
+        },
+        {
+          "time": "14:00",
+          "subject": "Subject 3",
+          "tutor": "Tutor C",
+          "student": "Student 3",
+          "backgroundColor": "#43C378"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-02",
+      "activities": [
+        {
+          "time": "09:00",
+          "subject": "Subject 1",
+          "tutor": "Tutor D",
+          "student": "Student 4",
+          "backgroundColor": "#A9A9A9"
+        },
+        {
+          "time": "11:00",
+          "subject": "Subject 2",
+          "tutor": "Tutor E",
+          "student": "Student 5",
+          "backgroundColor": "#377DFF"
+        },
+        {
+          "time": "15:00",
+          "subject": "Subject 3",
+          "tutor": "Tutor F",
+          "student": "Student 6",
+          "backgroundColor": "#FF6968"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-03",
+      "activities": [
+        {
+          "time": "08:30",
+          "subject": "Subject 1",
+          "tutor": "Tutor G",
+          "student": "Student 7",
+          "backgroundColor": "#43C378"
+        },
+        {
+          "time": "10:00",
+          "subject": "Subject 2",
+          "tutor": "Tutor H",
+          "student": "Student 8",
+          "backgroundColor": "#A9A9A9"
+        },
+        {
+          "time": "13:30",
+          "subject": "Subject 3",
+          "tutor": "Tutor I",
+          "student": "Student 9",
+          "backgroundColor": "#377DFF"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-04",
+      "activities": [
+        {
+          "time": "09:00",
+          "subject": "Subject 1",
+          "tutor": "Tutor J",
+          "student": "Student 10",
+          "backgroundColor": "#FF6968"
+        },
+        {
+          "time": "11:30",
+          "subject": "Subject 2",
+          "tutor": "Tutor K",
+          "student": "Student 11",
+          "backgroundColor": "#43C378"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-05",
+      "activities": [
+        {
+          "time": "10:00",
+          "subject": "Subject 3",
+          "tutor": "Tutor L",
+          "student": "Student 12",
+          "backgroundColor": "#A9A9A9"
+        },
+        {
+          "time": "14:00",
+          "subject": "Subject 1",
+          "tutor": "Tutor M",
+          "student": "Student 13",
+          "backgroundColor": "#377DFF"
+        }
+      ]
+    }
+  ]
+}

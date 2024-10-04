@@ -2,26 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lexend"; /* Đặt font mặc định cho body */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Ẩn biểu tượng trên Webkit (Chrome, Safari) */
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none;
+}
+
+/* Ẩn biểu tượng trên Edge */
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
+/* Ẩn biểu tượng trên Firefox */
+input[type="password"]::-moz-textfield-decoration-container {
+  display: none;
 }
